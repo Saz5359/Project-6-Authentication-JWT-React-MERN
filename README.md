@@ -43,6 +43,6 @@ Cool Tech faced the challenge of efficiently managing login credentials across v
 - User role explained in Features section
 
   here are some login details:
-  Admin - email: sam@gmail.com  password: Sam123
-  Manager - email: alex@gmail.com  password: Alex123
-  Normal - register yourself
+  - Admin - email: sam@gmail.com  password: Sam123
+  - Manager - email: alex@gmail.com  password: Alex123
+  - Normal - register yourself
