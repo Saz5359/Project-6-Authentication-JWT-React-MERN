@@ -1,0 +1,73 @@
+.credentialTable h1 {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-size: 60px;
+  color: white;
+}
+
+.credentialTable {
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+}
+
+.updateContainer {
+  width: 700px;
+}
+
+.updateWrap {
+  padding-left: 45vh;
+  padding-top: 10vh;
+  width: 60%;
+  color: #fff;
+}
+
+.updateWrap h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  border: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  background: #000;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.close {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.error h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.error a {
+  color: white;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(#020467, #5f2a04);
+  border: none;
+  font-size: 1.2rem;
+  text-decoration: none;
+}

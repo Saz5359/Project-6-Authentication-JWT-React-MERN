@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  background-color: #cecece;
+  display: grid;
+  /* min-height: 100vh; */
+  grid-template-areas: "navbar header" "navbar main" "navbar main";
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 10% 80%;
+  padding-top: 0;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Dashboard */
+.dashboard {
+  grid-area: header;
+  margin: 0.5rem 0;
+  margin-left: 0.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+
+.dashboard-right {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-right h2 {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.3rem;
+}
+
+.dashboard-left {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-left box-icon {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.dashboard-left .user-box {
+  display: flex;
+  padding: 0.3rem 1rem;
+  align-items: center;
+  margin-left: 2rem;
+  border-left: 1px solid black;
+}
+
+.dashboard-left .user-box box-icon {
+  margin: 0;
+  cursor: pointer;
+}
+
+.dashboard-left .user-box h2 {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.3rem;
+  margin-right: 0.5rem;
+}
+
+/* Navigation bar */
+.navBar {
+  grid-area: navbar;
+  background: #3a3a3a;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.navBar h3 {
+  font-size: 1.7rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+.navBar .nav-top {
+  text-align: center;
+}
+
+.navBar .links {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.navBar .links .no-access {
+  color: gray;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+.navBar .links:hover,
+.navBar .links:focus {
+  background-color: rgb(47, 47, 47);
+}
+
+.navBar .links box-icon {
+  padding-top: 0.2rem;
+  justify-self: flex-start;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+.navBar .links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Main container */
+.main-container {
+  grid-area: main;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+}
+
+/* Cards */
+.main-container .org-container {
+  height: 31vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+.main-container h1 {
+  color: black;
+  font-size: 1.5rem;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.main-container .org-container .org-card {
+  background-color: #e73e49;
+  height: 31vh;
+  width: 30rem;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  text-align: start;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container .org-container .org-card box-icon {
+  text-align: center;
+}
+
+.main-container .org-container .org-card h2 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.main-container .org-container .org-card p {
+  text-align: start;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.main-container .org-container .division {
+  background: #020467;
+}
+.main-container .org-container .chart-card {
+  height: 31vh;
+  width: 25rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.main-container .repository {
+  margin-top: 2rem;
+  background-color: white;
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.main-container .repository .table {
+  margin-top: 2rem;
+  /* background-color: blueviolet; */
+  width: 65%;
+}
+
+.main-container .repository .line-chart {
+  margin-top: 2rem;
+  /* background-color: firebrick; */
+  width: 35%;
+  margin-left: 2px;
+}

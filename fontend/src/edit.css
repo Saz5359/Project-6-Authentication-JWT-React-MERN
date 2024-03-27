@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #3a3a3a;
+}
+/*height: 97.7vh;
+  background-image: linear-gradient(#380036, #0cbaba);
+  
+  .navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  background: linear-gradient(#2a00b7, #42006c);
+}*/
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: black;
+  margin-top: 10px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6);
+}
+/*
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 470px;
+  margin-top: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6);
+}
+/*background: linear-gradient(#2a00b7, #42006c);*/
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.inputs {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+  height: 40px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0px 30px;
+  height: 30px;
+  width: auto;
+}
+
+.input input {
+  height: 38px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+select {
+  height: 38px;
+  width: 290px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 30px auto;
+}
+
+.submit {
+  display: flex;
+  border: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  background: linear-gradient(#020467, #5f2a04);
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.profilePic {
+  height: auto;
+  width: 90px;
+}
+
+.signIn {
+  height: auto;
+  width: 50px;
+}
+
+.alert {
+  width: 250px;
+}
